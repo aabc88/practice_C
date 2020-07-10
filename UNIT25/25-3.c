@@ -3,8 +3,8 @@
 int main()
 {
 	int num1;
-
-	num1 = 35 + 1 * 2;
+	int num2 = 3;
+	num1 = 10 + 2 / (5-3) * ++num2;
 
 	printf("%d\n", num1);
 
